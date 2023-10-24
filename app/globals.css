@@ -25,3 +25,42 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h1 {
+  color: aliceblue;
+  font-size: 48px;
+  text-align: center;
+}
+
+button.square {
+  font-size: 48px;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+}
+
+button.square:hover {
+  background-color: gray;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+button:disabled:hover {
+  background-color: white;
+}
+
+button.X {
+  color: red;
+}
+
+button.O {
+  color: blue;
+}
